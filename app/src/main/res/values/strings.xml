@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Timmer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="workout_text">Workout time</string>
+    <string name="rest_text">Rest time</string>
+    <string name="interval_text">Interval count</string>
+    <string name="plusTen">+</string>
+    <string name="minusTen">-</string>
+    <string name="zero">00:00</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal">
+
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:clickable="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:rotation="90"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="130sp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+
+        app2:layout_constraintVertical_bias="0.0"
+        tools:text="START"/>
+
+    <TextView
+        android:id="@+id/textIntervalCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:rotation="90"
+        android:text="0/0"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        app2:layout_constraintBottom_toTopOf="@+id/counter"
+        app2:layout_constraintHorizontal_bias="0.97"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintTop_toBottomOf="@+id/counter"
+
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_conversion_absoluteWidth="21dp"
+        tools:layout_conversion_absoluteX="381dp"
+        tools:layout_conversion_absoluteY="316dp" />
+
+
+</android.support.constraint.ConstraintLayout>
